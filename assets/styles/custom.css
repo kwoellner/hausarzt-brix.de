@@ -1,0 +1,163 @@
+/* poppins-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/poppins-v20-latin-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* poppins-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/poppins-v20-latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* poppins-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('../fonts/poppins-v20-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #1d4a4b;
+}
+
+a {
+    color: #7ec399;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #69a882;
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+table tr td {
+    line-height: 100%;
+}
+
+table tr td.ps-3 {
+    border-left: 1px solid #86c9a2;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #86c9a2 !important;
+}
+
+.btn-primary {
+    width: 50%;
+    color: #ffffff;
+    background-color: #7ec399;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #69a882;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom: 1px solid #5f666f;
+}
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+em {
+    color: #7ec399;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.box-2 {
+    color: #ffffff;
+    background-color: #1d4A4b;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        height: 120px;
+        margin-left: -40px;
+    }
+
+    .btn-primary {
+        width: 160px;
+    }
+
+    .box-1 {
+        background: url('../images/logo-homepage.svg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .box-1.p-lg-5 {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .text-nowrap {
+        white-space: normal !important;
+    }
+
+    .fs-4 {
+        font-size: 1.25rem !important;
+    }
+
+    .fs-5 {
+        font-size: 1.125rem !important;
+    }
+}
