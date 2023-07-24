@@ -141,6 +141,23 @@ em {
     background-color: #1d4A4b;
 }
 
+@media (max-width: 380px) {
+    table tr td.ps-3 {
+        padding-left: 0.5rem !important;
+    }
+
+    table tr td.pe-3 {
+        padding-right: 0.5rem !important;
+    }
+}
+
+
+@media (min-width: 380px) {
+    table.w-100 {
+        width: auto !important;
+    }
+}
+
 @media (min-width: 768px) {
     p {
         hyphens: none;
