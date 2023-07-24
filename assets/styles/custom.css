@@ -179,9 +179,3 @@ em {
         padding-right: 6rem !important;
     }
 }
-
-@media (max-width: 767.98px) {
-    .text-nowrap {
-        white-space: normal !important;
-    }
-}
